@@ -1,5 +1,5 @@
 /**
- * Title:
+ * Title: Amusing Joke
  * Description: https://codeforces.com/problemset/problem/141/A
  * Author: Samin Yasar
  * Date: 13/January/2022
