@@ -7,17 +7,21 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 void main(void) {
-  int num;
-  scanf("%d", &num);
-  int result = 0;
+  long long num;
+  scanf("%lld", &num);
+  long long result = 0;
+  // for(int i = 1; i <= num; i++) {
+  //   if((i % 2) == 0) {
+  //     result += i;
+  //   } else {
+  //     result -= i;
+  //   }
+  // }
   for(int i = 1; i <= num; i++) {
-    if((i % 2) == 0) {
-      result += i;
-    } else {
-      result -= i;
-    }
+    result += pow((-1), i) * i;
   }
-  printf("%d\n", result);
+  printf("%lld\n", result);
 }

@@ -11,3 +11,4 @@
 1. Sum of Digits
 1. Bit++
 1. Next Round
+1. Wrong Substraction
