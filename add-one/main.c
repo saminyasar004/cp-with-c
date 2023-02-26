@@ -10,16 +10,10 @@
 #include <stdlib.h>
 
 int main() {
-  int testCases;
-  scanf("%d", &testCases);
-  for(int i = 1; i <= testCases; i++) {
-    char *n;
-    int m;
-    scanf("%p %d", &n, &m);
-    printf("%s\n", n);
-    // for(int j = 0; j <= sizeof(n); j++) {
-
-    // }
+  int testCase;
+  scanf("%d", &testCase);
+  for(int i = 0; i < testCase; i++) {
+    // code here...
   }
   return 0;
 }
