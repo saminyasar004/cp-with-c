@@ -12,3 +12,4 @@
 1. Bit++
 1. Next Round
 1. Wrong Substraction
+1. Magnets
